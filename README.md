@@ -116,10 +116,10 @@ sudo apt-get install -y php-curl
 <summary>More detail</summary>
 
 - Run the commands below.
-
+- (Replace \_YOUR_PI_ZERO_LOGIN_ID_\_ to your pi zero login id)
 ```
 sudo cp /etc/crontab /etc/cron.d/insta2twislack
-sudo echo "*/3 * * * * root (cd /home/tmatsumor/insta2twislack && sudo php insta2twislack.php)" | sudo tee -a /etc/cron.d/insta2twislack > /dev/null
+sudo echo "*/3 * * * * root (cd /home/_YOUR_PI_ZERO_LOGIN_ID_/insta2twislack && sudo php insta2twislack.php)" | sudo tee -a /etc/cron.d/insta2twislack > /dev/null
 sudo echo "0 3 * * * root sudo /sbin/reboot" | sudo tee -a /etc/cron.d/insta2twislack > /dev/null
 sudo service cron restart
 ```
