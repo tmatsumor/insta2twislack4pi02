@@ -45,7 +45,7 @@ This document is a guide for installing [insta2twislack](https://github.com/tmat
 </details>
 
 ### 1.2. Disable ipv6
-Disable ipv6 to avoid mDNS related problems.
+- Disable ipv6 to avoid mDNS related problems.
 <details>
 <summary>More detail</summary>
   
