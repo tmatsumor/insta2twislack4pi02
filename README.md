@@ -76,14 +76,14 @@ Disable ipv6 to avoid mDNS related problems.
 
 ### 1.4.1. Connect to your Pi zero with SSH
 
-- Open Power Shell on Windows and type the command below.
+- Open Power Shell on Windows and Run the command below.
 ```
 ssh _username_@raspberrypi.local
 ```
 
 ### 1.4.2. install git, php and php-curl
 
-- Type the command below.
+- Run the commands below.
 
 ```
 sudo apt-get update
@@ -112,7 +112,7 @@ sudo apt-get install -y php-curl
 <details>
 <summary>More detail</summary>
 
-- Type the command below.
+- Run the commands below.
 
 ```
 sudo cp /etc/crontab /etc/cron.d/insta2twislack
