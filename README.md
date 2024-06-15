@@ -1,7 +1,7 @@
 # insta2twislack4pi02🐢
 This document is a guide for installing [insta2twislack](https://github.com/tmatsumor/insta2twislack) on a Raspberry Pi Zero 2 W.
 
-.
+  
 
 # 1. Pre-installation
 
