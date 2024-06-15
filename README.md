@@ -6,6 +6,7 @@ This document is a guide for installing [insta2twislack](https://github.com/tmat
 ## 1.1. Install Raspberry Pi OS to a microSD card 
 - Visit the [Download page](https://www.raspberrypi.com/software/) and install Raspberry Pi OS to your microSD card storage. 
 
+.
 
 <details>
 <summary>More detail</summary>
