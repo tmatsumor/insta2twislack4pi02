@@ -15,14 +15,14 @@ This document is a guide for installing [insta2twislack](https://github.com/tmat
 
 ![image](https://github.com/tmatsumor/insta2twislack4pi02/assets/129941863/5fe085e0-c9e0-4b5b-8de4-491f5f8f3cf7)
 
-- Click "Raspberry Pi OS (other)" and select "Raspberry Pi OS Lite(64-bit)".
+- Click "Raspberry Pi OS (other)", then select "Raspberry Pi OS Lite(64-bit)".
 
 ![image](https://github.com/tmatsumor/insta2twislack4pi02/assets/129941863/1831ed0f-632b-4204-b680-5e4a95e14a20)
 
 # 1.1.2. OS customization settings
 
 - Click Next button.
-- Then click EDIT SETTING button.
+- Click EDIT SETTING button.
 
 ![image](https://github.com/tmatsumor/insta2twislack4pi02/assets/129941863/d9bf3f33-8671-4dcd-a5e0-b5fd1da24802)
 
@@ -70,18 +70,18 @@ Disable ipv6 to avoid mDNS related problems.
 - Insert the microSD card into your Raspberry Pi Zero 2 W and boot.
 
 ### 1.4. Install git, php and php-curl
-- Connect to your Pi zero with SSH and install git, php and php-curl.
+- Connect to your Pi zero with SSH, then install git, php and php-curl.
 <details>
 <summary>More detail</summary>
 
 ### 1.4.1. Connect to your Pi zero with SSH
 
-- Open Power Shell on Windows and Run the command below.
+- Open Power Shell on Windows, then Run the command below.
 ```
 ssh _username_@raspberrypi.local
 ```
 
-### 1.4.2. install git, php and php-curl
+### 1.4.2. Install git, php and php-curl
 
 - Run the commands below.
 
