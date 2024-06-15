@@ -48,7 +48,7 @@ This document is a guide for installing [insta2twislack](https://github.com/tmat
 Disable ipv6 to avoid mDNS related problems.
 <details>
 <summary>More detail</summary>
-</details>details>
+</details>
 
 ### 1.2. Boot Pi Zero 2 W
 - Insert the microSD card into your Raspberry Pi Zero 2 W and boot.
