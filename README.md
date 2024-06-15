@@ -57,9 +57,9 @@ Disable ipv6 to avoid mDNS related problems.
   
 ![image](https://github.com/tmatsumor/insta2twislack4pi02/assets/129941863/eee3790b-dc95-497c-83b7-cf11037ee74a)
 
-### 1.2.2. Add "ipv6.disable=1" 
+### 1.2.2. Append "ipv6.disable=1" 
 
-- Add "ipv6.disable=1" to the end of the line with a white space separator.
+- Append "ipv6.disable=1" to the end of the line with a white space separator.
 - Save the file.
 
 ![image](https://github.com/tmatsumor/insta2twislack4pi02/assets/129941863/218774fd-2507-49e3-8322-4ad423fbdadb)
@@ -98,10 +98,28 @@ sudo apt-get install -y php-curl
 
 ## 2.1. Install insta2twislack
 
-See this ["Installation" section](https://github.com/tmatsumor/insta2twislack).
+- See this ["Installation" section](https://github.com/tmatsumor/insta2twislack).
 
 ## 2.2. Test insta2twislack
 
-See this ["Example" section](https://github.com/tmatsumor/insta2twislack).
+- See this ["Example" section](https://github.com/tmatsumor/insta2twislack).
+
+## 2.3. Add jobs to crontab
+
+- Add a job to run insta2twislack every three minutes.
+- Add a job to reboot your pi zero at three am every day.
+
+<details>
+<summary>More detail</summary>
+
+- Type the command below.
+
+```
+sudo cp /etc/crontab /etc/cron.d/insta2twislack
+sudo echo "*/3 * * * * root (cd /home/tmatsumor/insta2twislack && sudo php insta2twislack.php)" | sudo tee -a /etc/cron.d/insta2twislack > /dev/null
+sudo echo "0 3 * * * root sudo /sbin/reboot" | sudo tee -a /etc/cron.d/insta2twislack > /dev/null
+sudo service cron restart
+```
+</details>
 
 
