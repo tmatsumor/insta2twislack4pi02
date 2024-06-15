@@ -98,11 +98,11 @@ sudo apt-get install -y php-curl
 
 ## 2.1. Install insta2twislack
 
-- See this ["Installation" section](https://github.com/tmatsumor/insta2twislack).
+- See this ["Installation"](https://github.com/tmatsumor/insta2twislack) section.
 
 ## 2.2. Test insta2twislack
 
-- See this ["Example" section](https://github.com/tmatsumor/insta2twislack).
+- See this ["Example"](https://github.com/tmatsumor/insta2twislack) section.
 
 ## 2.3. Add jobs to crontab
 
