@@ -21,10 +21,22 @@ This document is a guide for installing [insta2twislack](https://github.com/tmat
 
 # 1.1.2. OS customization settings
 
+- Click Next button.
+- Then click EDIT SETTING button.
 
 ![image](https://github.com/tmatsumor/insta2twislack4pi02/assets/129941863/d9bf3f33-8671-4dcd-a5e0-b5fd1da24802)
 
+- You can preconfigure the username and password, Wi-Fi settings.
+
 ![image](https://github.com/tmatsumor/insta2twislack4pi02/assets/129941863/67a8427e-9694-4711-bbd7-d845ac463ba4)
+
+- Click "SERVICES" Tab.
+- Click "Allow public-key authentication only" radio button.
+- Click "RUN SSH-KEYGEN" button. 
+
+![image](https://github.com/tmatsumor/insta2twislack4pi02/assets/129941863/441217b8-fdf2-49e8-a1e0-0d6e5b3fd7e2)
+
+
 
 </details>
 
