@@ -94,7 +94,7 @@ sudo apt-get install -y php-curl
 ```
 </details>
 
-## 2. Setup insta2twislack
+# 2. Setup insta2twislack
 
 ## 2.1. Install insta2twislack
 
