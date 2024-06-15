@@ -127,4 +127,4 @@ sudo service cron restart
 
 <br />
 
-# 3. All Done. Enjoy it!🚀
+# 3. All done, enjoy it! 🚀
