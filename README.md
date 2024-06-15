@@ -48,16 +48,43 @@ This document is a guide for installing [insta2twislack](https://github.com/tmat
 Disable ipv6 to avoid mDNS related problems.
 <details>
 <summary>More detail</summary>
+  
+### 1.2.1. Open cmdline.txt file
+  
+- Eject the microSD card from your computer.
+- Inject the sd card again.
+- Open cmdline.txt file.
+  
+![image](https://github.com/tmatsumor/insta2twislack4pi02/assets/129941863/eee3790b-dc95-497c-83b7-cf11037ee74a)
+
+### 1.2.2. Add "ipv6.disable=1" 
+
+- Add "ipv6.disable=1" to the end of the line with a white space separator.
+- Save the file.
+
+![image](https://github.com/tmatsumor/insta2twislack4pi02/assets/129941863/218774fd-2507-49e3-8322-4ad423fbdadb)
+
 </details>
 
-### 1.2. Boot Pi Zero 2 W
+### 1.3. Boot Pi Zero 2 W
 - Insert the microSD card into your Raspberry Pi Zero 2 W and boot.
 
+### 1.4. Install git, php and php-curl
+- Connect to your Pi zero with SSH and install git, php and php-curl.
+<details>
+<summary>More detail</summary>
 
+### 1.4.1. Connect to your Pi zero with SSH
 
+- Open Power Shell on Windows and type the command below.
+```
+ssh _username_@raspberrypi.local
+```
 
-### 1.3. Install git, php and php-curl
-- Connect your Pi zero by ssh and type the commands below.
+### 1.4.2. install git, php and php-curl
+
+- Type the command below.
+
 ```
 sudo apt-get update
 sudo apt-get upgrade
@@ -65,4 +92,4 @@ sudo apt-get install -y git
 sudo apt-get install php -y
 sudo apt-get install php-curl -y
 ```
-
+</details>
