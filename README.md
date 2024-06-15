@@ -36,15 +36,22 @@ This document is a guide for installing [insta2twislack](https://github.com/tmat
 
 ![image](https://github.com/tmatsumor/insta2twislack4pi02/assets/129941863/441217b8-fdf2-49e8-a1e0-0d6e5b3fd7e2)
 
+### 1.1.3. Write
+- Click "SAVE" button on the OS Customisation dialog.
+- Click "YES" button on the Use OS Customisation dialog.
+- The writing process will begin.
 
-
+![image](https://github.com/tmatsumor/insta2twislack4pi02/assets/129941863/3cff1173-aa4a-477b-afdb-047de6569f48)
 </details>
+
+### 1.2. Disable ipv6
+Disable ipv6 to avoid mDNS related problems.
+<details>
+<summary>More detail</summary>
+</details>details>
 
 ### 1.2. Boot Pi Zero 2 W
 - Insert the microSD card into your Raspberry Pi Zero 2 W and boot.
-
-- More details
-
 
 
 
