@@ -52,7 +52,7 @@ This document is a guide for installing [insta2twislack](https://github.com/tmat
 ### 1.2.1. Open cmdline.txt file
   
 - Eject the microSD card from your computer.
-- Inject the sd card again.
+- Insert the sd card again.
 - Open cmdline.txt file.
   
 ![image](https://github.com/tmatsumor/insta2twislack4pi02/assets/129941863/eee3790b-dc95-497c-83b7-cf11037ee74a)
