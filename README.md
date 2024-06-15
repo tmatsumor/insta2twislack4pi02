@@ -98,15 +98,10 @@ sudo apt-get install -y php-curl
 
 ## 2.1. Install insta2twislack
 
-See the "Installation" section below.
-
-https://github.com/tmatsumor/insta2twislack
+See this ["Installation" section](https://github.com/tmatsumor/insta2twislack).
 
 ## 2.2. Test insta2twislack
 
-See the "Example" section below.
-
-https://github.com/tmatsumor/insta2twislack
-
+See this ["Example" section](https://github.com/tmatsumor/insta2twislack).
 
 
