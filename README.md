@@ -1,16 +1,16 @@
 # insta2twislack4pi02🐢
 This document is a guide for installing [insta2twislack](https://github.com/tmatsumor/insta2twislack) on a Raspberry Pi Zero 2 W.
 
-## 1. Pre-installation
+# 1. Pre-installation
 
-### 1.1. Install Raspberry Pi OS to a microSD card 
+## 1.1. Install Raspberry Pi OS to a microSD card 
 - Visit the [Download page](https://www.raspberrypi.com/software/) and install Raspberry Pi OS to your microSD card storage. 
 
 
 <details>
 <summary>More detail</summary>
 
-## 1.1.1. Device, OS, and Storage
+### 1.1.1. Device, OS, and Storage
 - Select "Raspberry Pi Zero2 W" device and your microSD card.
 
 ![image](https://github.com/tmatsumor/insta2twislack4pi02/assets/129941863/5fe085e0-c9e0-4b5b-8de4-491f5f8f3cf7)
@@ -19,7 +19,7 @@ This document is a guide for installing [insta2twislack](https://github.com/tmat
 
 ![image](https://github.com/tmatsumor/insta2twislack4pi02/assets/129941863/1831ed0f-632b-4204-b680-5e4a95e14a20)
 
-# 1.1.2. OS customization settings
+### 1.1.2. OS customization settings
 
 - Click Next button.
 - Click EDIT SETTING button.
@@ -44,7 +44,7 @@ This document is a guide for installing [insta2twislack](https://github.com/tmat
 ![image](https://github.com/tmatsumor/insta2twislack4pi02/assets/129941863/3cff1173-aa4a-477b-afdb-047de6569f48)
 </details>
 
-### 1.2. Disable ipv6
+## 1.2. Disable ipv6
 - Disable ipv6 to avoid mDNS related problems.
 <details>
 <summary>More detail</summary>
@@ -66,10 +66,10 @@ This document is a guide for installing [insta2twislack](https://github.com/tmat
 
 </details>
 
-### 1.3. Boot Pi Zero 2 W
+## 1.3. Boot Pi Zero 2 W
 - Insert the microSD card into your Raspberry Pi Zero 2 W and boot.
 
-### 1.4. Install git, php and php-curl
+## 1.4. Install git, php and php-curl
 - Connect to your Pi zero with SSH, then install git, php and php-curl.
 <details>
 <summary>More detail</summary>
