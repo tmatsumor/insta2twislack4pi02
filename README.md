@@ -70,7 +70,7 @@ This document is a guide for installing [insta2twislack](https://github.com/tmat
 - Insert the microSD card into your Raspberry Pi Zero 2 W and boot.
 
 ### 1.4. Install git, php and php-curl
-- Connect to your Pi zero with SSH, then install git, php and php-curl.
+- Connect to your Pi zero with SSH from your computer, then install git, php and php-curl.
 <details>
 <summary>More detail</summary>
 
