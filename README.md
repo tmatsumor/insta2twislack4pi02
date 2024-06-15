@@ -1,7 +1,7 @@
 # insta2twislack4pi02🐢
-This document is a guide for installing [insta2twislack](https://github.com/tmatsumor/insta2twislack) on a Raspberry Pi Zero 2 W.  
+This document is a guide for installing [insta2twislack](https://github.com/tmatsumor/insta2twislack) on a Raspberry Pi Zero 2 W.
 
-  
+<br />
 
 # 1. Pre-installation
 
@@ -95,6 +95,8 @@ sudo apt-get install -y php-curl
 ```
 </details>
 
+<br />
+
 # 2. Setup insta2twislack
 
 ## 2.1. Install insta2twislack
@@ -122,5 +124,7 @@ sudo echo "0 3 * * * root sudo /sbin/reboot" | sudo tee -a /etc/cron.d/insta2twi
 sudo service cron restart
 ```
 </details>
+
+<br />
 
 # 3. All Done! Enjoy it!
