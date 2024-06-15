@@ -87,9 +87,26 @@ ssh _username_@raspberrypi.local
 
 ```
 sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get upgrade -y
 sudo apt-get install -y git
-sudo apt-get install php -y
-sudo apt-get install php-curl -y
+sudo apt-get install -y php
+sudo apt-get install -y php-curl
 ```
 </details>
+
+## 2. Setup insta2twislack
+
+## 2.1. Install insta2twislack
+
+See the "Installation" section below.
+
+https://github.com/tmatsumor/insta2twislack
+
+## 2.2. Test insta2twislack
+
+See the "Example" section below.
+
+https://github.com/tmatsumor/insta2twislack
+
+
+
